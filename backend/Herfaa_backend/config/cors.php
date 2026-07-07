@@ -20,9 +20,11 @@ return [
         'http://127.0.0.1:5173',
     ],
 
-    // Allow the Vite dev server on ANY localhost port (5173, 5174, …).
+    // Allow the Vite dev server on ANY localhost port (5173, 5174, …),
+    // plus the deployed frontend on any *.vercel.app subdomain (production).
     'allowed_origins_patterns' => [
         '#^http://(localhost|127\.0\.0\.1):\d+$#',
+        '#^https://.*\.vercel\.app$#',
     ],
 
     'allowed_headers' => ['*'],
