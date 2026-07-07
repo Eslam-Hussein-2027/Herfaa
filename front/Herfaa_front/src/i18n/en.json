@@ -1,0 +1,70 @@
+{
+  "nav": {
+    "home": "Home",
+    "browse": "Browse Services",
+    "how": "How it works",
+    "login": "Log in",
+    "dashboard": "Dashboard",
+    "adminPanel": "Admin panel",
+    "orders": "My bookings",
+    "favorites": "Favorites",
+    "logout": "Log out"
+  },
+  "hero": {
+    "badge": "Verified craftsmen in Libya",
+    "titleBefore": "Get your work done with a skilled",
+    "highlight": "craftsman",
+    "titleAfter": "near you",
+    "subtitle": "A platform connecting you with trusted carpenters, plumbers, electricians and painters in Libya — clear prices and real reviews.",
+    "searchPlaceholder": "Search for a service or craftsman…",
+    "allCities": "All cities",
+    "search": "Search"
+  },
+  "stats": {
+    "providers": "Verified craftsmen",
+    "jobs": "Jobs completed",
+    "rating": "Average rating"
+  },
+  "categories": {
+    "title": "Browse by trade",
+    "subtitle": "Pick the service you need from dozens of trades."
+  },
+  "steps": {
+    "title": "How does Herfaa work?",
+    "s1t": "Search",
+    "s1d": "Browse craftsmen by trade, city and rating.",
+    "s2t": "Book",
+    "s2d": "Send a booking request with the job details and preferred time.",
+    "s3t": "Review",
+    "s3d": "After the job is done, pay cash and rate the craftsman honestly."
+  },
+  "footer": {
+    "rights": "© 2026 Herfaa — All rights reserved."
+  },
+  "auth": {
+    "welcome": "Welcome back",
+    "loginSubtitle": "Log in to continue to Herfaa",
+    "iAmCustomer": "I'm a customer",
+    "iAmProvider": "I'm a craftsman",
+    "emailOrPhone": "Email or phone",
+    "password": "Password",
+    "loginBtn": "Log in",
+    "noAccount": "Don't have an account?",
+    "createAccountLink": "Create one",
+    "loginError": "Could not log in.",
+    "registerTitle": "Create your account",
+    "registerSubtitle": "Join Herfaa in a few simple steps",
+    "fullName": "Full name",
+    "namePlaceholder": "e.g. Ali Agela",
+    "email": "Email",
+    "phoneOptional": "Phone (optional)",
+    "cityOptional": "City (optional)",
+    "chooseCity": "Choose your city",
+    "passwordConfirm": "Confirm password",
+    "min8": "At least 8 characters",
+    "reenter": "Re-enter your password",
+    "createAccountBtn": "Create account",
+    "haveAccount": "Already have an account?",
+    "registerError": "Could not create the account."
+  }
+}

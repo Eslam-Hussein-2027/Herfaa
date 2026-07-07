@@ -1,0 +1,78 @@
+@import "tailwindcss";
+
+/* ===========================================================================
+ | Herfaa design system — matched to the platform mockup.
+ | Gold/amber primary + teal secondary on warm cream, Cairo (ar) / Poppins (en).
+ | Tailwind v4 turns each --color-* into utilities (bg-gold-500, text-teal-700…).
+ * ========================================================================= */
+@theme {
+  /* --- Gold / amber (primary action) --- */
+  --color-gold-50: #fbf3e6;
+  --color-gold-100: #f6e3c2;
+  --color-gold-200: #efce92;
+  --color-gold-300: #e8b662;
+  --color-gold-400: #e8b96b;
+  --color-gold-500: #e0992f;
+  --color-gold-600: #c9851f;
+  --color-gold-700: #bd7d1f;
+  --color-gold-800: #8f5e16;
+
+  /* --- Teal (secondary / brand) --- */
+  --color-teal-50: #e6f3f1;
+  --color-teal-100: #c0e1dd;
+  --color-teal-200: #8ac8c1;
+  --color-teal-300: #4fa89f;
+  --color-teal-500: #15897e;
+  --color-teal-600: #0f6e65;
+  --color-teal-700: #0b4f4a;
+  --color-teal-800: #073833;
+
+  /* --- Ink / neutral --- */
+  --color-ink-50: #fbfcfc;
+  --color-ink-100: #f5f7f8;
+  --color-ink-200: #e7ebee;
+  --color-ink-300: #c3cbd2;
+  --color-ink-400: #9aa6b0;
+  --color-ink-500: #7a8893;
+  --color-ink-600: #5b6b79;
+  --color-ink-700: #3a4754;
+  --color-ink-800: #2c3a45;
+  --color-ink-900: #1f2933;
+
+  /* --- Surfaces --- */
+  --color-cream: #fbf6ee;
+  --color-cream-deep: #fbf3e6;
+
+  /* --- Status --- */
+  --color-success: #15803d;
+  --color-success-bg: #e8f4ec;
+  --color-danger: #b91c1c;
+  --color-danger-bg: #fbeaea;
+
+  /* --- Typography --- */
+  --font-sans: "Poppins", system-ui, sans-serif;
+  --font-arabic: "Cairo", system-ui, sans-serif;
+
+  /* --- Shadows (from the mockup) --- */
+  --shadow-xs: 0 1px 2px rgba(31, 41, 51, 0.06);
+  --shadow-sm: 0 1px 3px rgba(31, 41, 51, 0.08), 0 1px 2px rgba(31, 41, 51, 0.04);
+  --shadow-md: 0 4px 12px rgba(31, 41, 51, 0.08);
+  --shadow-lg: 0 10px 30px rgba(31, 41, 51, 0.1);
+  --shadow-xl: 0 18px 48px rgba(31, 41, 51, 0.14);
+  --shadow-amber: 0 8px 24px rgba(224, 153, 47, 0.28);
+}
+
+html {
+  font-family: var(--font-arabic);
+  color: var(--color-ink-900);
+}
+
+/* Latin/English contexts switch to Poppins. */
+html[dir="ltr"] {
+  font-family: var(--font-sans);
+}
+
+body {
+  margin: 0;
+  background-color: var(--color-cream);
+}
