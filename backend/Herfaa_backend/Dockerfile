@@ -1,5 +1,5 @@
-# Herfaa — Laravel API image for Render (PHP 8.3)
-FROM php:8.3-cli
+# Herfaa — Laravel API image for Render (PHP 8.4; code uses Pdo\Mysql constants)
+FROM php:8.4-cli
 
 # System libraries + PHP extensions Laravel needs (MySQL, image uploads, etc.)
 RUN apt-get update && apt-get install -y --no-install-recommends \
