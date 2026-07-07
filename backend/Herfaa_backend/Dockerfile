@@ -21,4 +21,5 @@ RUN composer install --no-dev --optimize-autoloader --no-interaction --prefer-di
 # Render injects the port to listen on via $PORT.
 # On boot: run pending migrations, then start the app.
 CMD php artisan migrate --force \
+    && php artisan db:seed --force \
     && php artisan serve --host=0.0.0.0 --port=${PORT:-8000}

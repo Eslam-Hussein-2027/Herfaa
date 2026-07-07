@@ -17,6 +17,12 @@ class DatabaseSeeder extends Seeder
     {
         $this->call(CategorySeeder::class);
 
+        // Demo users/bookings/reviews are seeded once. Skip if already present
+        // so auto-seeding on every deploy (e.g. Render) stays safe.
+        if (User::where('email', 'admin@herfaa.ly')->exists()) {
+            return;
+        }
+
         // Seeded admin (admins are never self-registered).
         User::factory()->admin()->create([
             'name' => 'مدير حِرفة',
